@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDispensadora", "AppDispe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dispensador", "Dispensador\Dispensador.csproj", "{279A02E0-A6E5-409A-84DC-BE6D2BCC3825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventana_Grafica", "Ventana_Grafica\Ventana_Grafica.csproj", "{097C79BB-D990-496A-9CEB-CD84B0D876B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ventana_Grafica", "Ventana_Grafica\Ventana_Grafica.csproj", "{097C79BB-D990-496A-9CEB-CD84B0D876B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD9022B9-E845-4F85-8575-71A513DC3F40} = {DD9022B9-E845-4F85-8575-71A513DC3F40}
+		{279A02E0-A6E5-409A-84DC-BE6D2BCC3825} = {279A02E0-A6E5-409A-84DC-BE6D2BCC3825}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
